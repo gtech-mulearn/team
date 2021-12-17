@@ -1,0 +1,36 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  width: 12rem;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+}
+
+.nav-links {
+  display: none;
+}
+
+.link-text{
+    margin: 1rem;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 700px) {
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .navbar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vh;
+  }
+}
