@@ -70,10 +70,17 @@ body {
 
 /* Card Style */
 
+.zonal-cards {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
 .card {
+  flex: 0 0 auto;
   position: relative;
-  width: 18rem;
-  margin: 10vh 0vh;
+  height: 18rem;
+  margin: 10vh 5vh;
 }
 
 .card-image {
