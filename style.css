@@ -216,3 +216,93 @@ body {
     margin: 0 28px;
   }
 }
+
+/* Ambassadors Heads CSS */
+
+.ambassadors-heads {
+  margin: 5vh 5vw;
+  margin-bottom: 0vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ambassadors-header {
+  margin-top: 2vh;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #FA9505;
+}
+
+.ambassadors-text {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 700px) {
+  .ambassadors-header {
+    font-size: 2rem;
+  }
+  .ambassadors-text {
+    width: 40rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+/* Card Style */
+
+.ambassadors-cards {
+  display: flex;
+  overflow-x: auto;
+  -webkit-scrollbar: none;
+  margin-top: 5vh;
+}
+
+.acard {
+  flex: 0 0 auto;
+  position: relative;
+  height: 18rem;
+  margin: 0 10px;
+}
+
+.card-image {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+}
+
+.acard-gradient {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-radius: 8px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    #132B4C 65%,
+    #132B4C 100%
+  );
+}
+
+.card-text {
+  padding: 1.5rem 0rem 0rem 1rem;
+}
+
+.card-text p {
+  line-height: 1rem;
+  color: white;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 700px) {
+  .ambassadors-cards {
+    width: 80vw;
+  }
+
+  .acard {
+    margin: 0 28px;
+  }
+}
+
