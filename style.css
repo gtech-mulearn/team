@@ -3,7 +3,7 @@ body {
 }
 
 .absimage {
-  width: 100%;
+  width: 100vw;
   margin: 5vh 0;
 }
 
@@ -121,8 +121,7 @@ body {
 
 @media only screen and (min-width: 700px) {
   .zonal-cards {
-    margin-left: 10vw;
-    margin-right: 10vw;
+    width: 80vw;
   }
 
   .card {
@@ -210,8 +209,7 @@ body {
 
 @media only screen and (min-width: 700px) {
   .district-cards {
-    margin-left: 10vw;
-    margin-right: 10vw;
+    width: 80vw;
   }
 
   .dcard {
