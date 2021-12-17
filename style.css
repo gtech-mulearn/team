@@ -72,15 +72,17 @@ body {
 
 .zonal-cards {
   display: flex;
-  flex-wrap: nowrap;
   overflow-x: auto;
+  -webkit-scrollbar: none;
+  margin-top: 5vh;
+  
 }
 
 .card {
   flex: 0 0 auto;
   position: relative;
   height: 18rem;
-  margin: 10vh 5vh;
+  margin: 0 18px;
 }
 
 .card-image {
@@ -111,4 +113,15 @@ body {
   line-height: 1rem;
   color: white;
   font-weight: 500;
+}
+
+@media only screen and (min-width: 700px) {
+  .zonal-cards {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
+  .card{
+    margin: 0 38px;
+  }
 }
