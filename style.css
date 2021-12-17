@@ -2,6 +2,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.absimage {
+  width: 100%;
+  margin: 5vh 0;
+}
+
 /* Navbar CSS */
 
 .logo {
@@ -75,7 +80,6 @@ body {
   overflow-x: auto;
   -webkit-scrollbar: none;
   margin-top: 5vh;
-  
 }
 
 .card {
@@ -121,7 +125,7 @@ body {
     margin-right: 10vw;
   }
 
-  .card{
+  .card {
     margin: 0 38px;
   }
 }
@@ -136,10 +140,10 @@ body {
 }
 
 .district-header {
-  margin-top: 15vh;
+  margin-top: 3vh;
   font-size: 1.75rem;
   font-weight: 700;
-  color: #349AD4;
+  color: #349ad4;
 }
 
 .district-text {
@@ -165,7 +169,6 @@ body {
   overflow-x: auto;
   -webkit-scrollbar: none;
   margin-top: 5vh;
-  
 }
 
 .dcard {
@@ -190,8 +193,8 @@ body {
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0) 0%,
-    #349AD4 65%,
-    #349AD4 100%
+    #349ad4 65%,
+    #349ad4 100%
   );
 }
 
@@ -211,7 +214,7 @@ body {
     margin-right: 10vw;
   }
 
-  .dcard{
+  .dcard {
     margin: 0 28px;
   }
 }
