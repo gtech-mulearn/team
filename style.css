@@ -125,3 +125,93 @@ body {
     margin: 0 38px;
   }
 }
+
+/* District Heads CSS */
+
+.district-heads {
+  margin: 0vh 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.district-header {
+  margin-top: 15vh;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #349AD4;
+}
+
+.district-text {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 700px) {
+  .district-header {
+    font-size: 2rem;
+  }
+  .district-text {
+    width: 40rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+/* Card Style */
+
+.district-cards {
+  display: flex;
+  overflow-x: auto;
+  -webkit-scrollbar: none;
+  margin-top: 5vh;
+  
+}
+
+.dcard {
+  flex: 0 0 auto;
+  position: relative;
+  height: 18rem;
+  margin: 0 18px;
+}
+
+.card-image {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+}
+
+.dcard-gradient {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-radius: 8px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    #349AD4 65%,
+    #349AD4 100%
+  );
+}
+
+.card-text {
+  padding: 1.5rem 0rem 0rem 1rem;
+}
+
+.card-text p {
+  line-height: 1rem;
+  color: white;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 700px) {
+  .district-cards {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
+  .dcard{
+    margin: 0 38px;
+  }
+}
