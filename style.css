@@ -172,7 +172,7 @@ body {
   flex: 0 0 auto;
   position: relative;
   height: 18rem;
-  margin: 0 18px;
+  margin: 0 10px;
 }
 
 .card-image {
@@ -212,6 +212,6 @@ body {
   }
 
   .dcard{
-    margin: 0 38px;
+    margin: 0 28px;
   }
 }
