@@ -72,8 +72,8 @@ body {
 
 .card {
   position: relative;
-  height: 20rem;
- 
+  width: 18rem;
+  margin: 10vh 0vh;
 }
 
 .card-image {
