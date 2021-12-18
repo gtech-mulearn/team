@@ -231,7 +231,7 @@ body {
   margin-top: 2vh;
   font-size: 1.75rem;
   font-weight: 700;
-  color: #FA9505;
+  color: #fa9505;
 }
 
 .ambassadors-text {
@@ -281,8 +281,8 @@ body {
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0) 0%,
-    #132B4C 65%,
-    #132B4C 100%
+    #132b4c 65%,
+    #132b4c 100%
   );
 }
 
@@ -306,3 +306,56 @@ body {
   }
 }
 
+/* Executive Heads CSS */
+
+.executive-heads {
+  margin: 5vh 5vw;
+  margin-bottom: 0vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.executive-header {
+  margin-top: 2vh;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #5774e1;
+}
+
+.executive-text {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 700px) {
+  .executive-header {
+    font-size: 2rem;
+  }
+  .executive-text {
+    width: 40rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+/* Card Style */
+
+.executive-cards {
+  display: flex;
+  overflow-x: auto;
+
+  -webkit-scrollbar: none;
+  margin-top: 5vh;
+}
+
+@media only screen and (min-width: 700px) {
+  .executive-cards {
+    width: 80vw;
+    justify-content: center;
+  }
+
+  .acard {
+    margin: 0 28px;
+  }
+}
