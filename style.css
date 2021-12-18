@@ -326,6 +326,13 @@ a {
   }
 }
 
+@media only screen and (min-width: 1800px) {
+  .executive-cards {
+    width: 80vw;
+    justify-content: center;
+  }
+}
+
 /* Ambassadors Heads CSS */
 
 .ambassadors-heads {
