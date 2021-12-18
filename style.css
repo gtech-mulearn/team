@@ -249,6 +249,7 @@ a {
   overflow-x: auto;
   -webkit-scrollbar: none;
   margin-top: 5vh;
+  width: 90vw;
 }
 
 .dcard {
