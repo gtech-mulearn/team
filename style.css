@@ -491,13 +491,21 @@ a {
 @media only screen and (min-width: 700px) {
   .fellow-cards {
     width: 80vw;
-    justify-content: center;
+    
   }
 
   .acard {
     margin: 0 28px;
   }
 }
+
+@media only screen and (min-width: 1325px) {
+  .fellow-cards {
+    width: 80vw;
+    justify-content: center;
+  }
+}
+
 
 .fcard-gradient {
   position: absolute;
