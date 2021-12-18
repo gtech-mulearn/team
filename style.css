@@ -73,6 +73,25 @@ body {
     border: 0.45em solid #f4f5f7;
     border-radius: 100vw;
   }
+
+  .lead-cards::-webkit-scrollbar {
+    width: 2em;
+    height: 1.5em;
+  }
+
+  .lead-cards::-webkit-scrollbar-track {
+    background-color: #f4f5f7;
+    border-radius: 100vw;
+    margin-block: 1em;
+  }
+
+  .lead-cards::-webkit-scrollbar-thumb {
+    background-color: #F8AF45;
+    border: 0.45em solid #f4f5f7;
+    border-radius: 100vw;
+  }
+
+  
 }
 
 .absimage {
@@ -410,6 +429,73 @@ a {
 
 @media only screen and (min-width: 700px) {
   .executive-cards {
+    width: 80vw;
+    justify-content: center;
+  }
+
+  .acard {
+    margin: 0 28px;
+  }
+}
+
+
+/* Community Heads CSS */
+
+.community-heads {
+  margin: 5vh 5vw;
+  margin-bottom: 0vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leads-header {
+  margin-top: 2vh;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #F8AF45;
+}
+
+.lead-cards {
+  display: flex;
+  overflow-x: auto;
+  -webkit-scrollbar: none;
+  margin-top: 5vh;
+}
+
+.lcard-gradient {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-radius: 8px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    #F8AF45 65%,
+    #F8AF45 100%
+  );
+}
+
+
+@media only screen and (min-width: 700px) {
+  .leads-header {
+    font-size: 2rem;
+  }
+}
+
+/* Card Style */
+
+.leads-cards {
+  display: flex;
+  overflow-x: auto;
+
+  -webkit-scrollbar: none;
+  margin-top: 5vh;
+}
+
+@media only screen and (min-width: 700px) {
+  .leads-cards  {
     width: 80vw;
     justify-content: center;
   }
