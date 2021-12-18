@@ -400,6 +400,10 @@ a {
 }
 
 /* Executive Heads CSS */
+.centerba{
+  display: flex;
+  justify-content: center;
+}
 
 .executive-heads {
   margin: 5vh 5vw;
