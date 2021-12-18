@@ -8,6 +8,10 @@ body {
 }
 
 /* Navbar CSS */
+a{
+  text-decoration: none;
+  color: inherit;
+}
 
 .logo {
   width: 15rem;
