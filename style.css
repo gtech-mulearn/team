@@ -86,12 +86,27 @@ body {
   }
 
   .community-cards::-webkit-scrollbar-thumb {
-    background-color: #F8AF45;
+    background-color: #f8af45;
     border: 0.45em solid #f4f5f7;
     border-radius: 100vw;
   }
 
-  
+  .fellow-cards::-webkit-scrollbar {
+    width: 2em;
+    height: 1.5em;
+  }
+
+  .fellow-cards::-webkit-scrollbar-track {
+    background-color: #f4f5f7;
+    border-radius: 100vw;
+    margin-block: 1em;
+  }
+
+  .fellow-cards::-webkit-scrollbar-thumb {
+    background-color: #a245f8;
+    border: 0.45em solid #f4f5f7;
+    border-radius: 100vw;
+  }
 }
 
 .absimage {
@@ -443,16 +458,51 @@ a {
   margin: 5vh 5vw;
   margin-bottom: 0vh;
   display: flex;
+
   flex-direction: column;
   align-items: center;
 }
 
 .fellow-header {
   margin-top: 2vh;
-  font-size: 2.25rem;
+  font-size: 1.8rem;
   font-weight: 700;
   color: #a245f8;
 }
+
+.fellow-cards {
+  display: flex;
+  overflow-x: auto;
+
+  -webkit-scrollbar: none;
+  margin-top: 5vh;
+}
+
+@media only screen and (min-width: 700px) {
+  .fellow-cards {
+    width: 80vw;
+    justify-content: center;
+  }
+
+  .acard {
+    margin: 0 28px;
+  }
+}
+
+.fcard-gradient {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-radius: 8px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    #7a13da 65%,
+    #7a13da  100%
+  );
+}
+
 
 /* Community Heads CSS */
 
@@ -468,7 +518,7 @@ a {
   margin-top: 2vh;
   font-size: 1.75rem;
   font-weight: 700;
-  color: #F8AF45;
+  color: #f8af45;
 }
 
 .community-cards {
@@ -487,11 +537,10 @@ a {
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0) 0%,
-    #F8AF45 65%,
-    #F8AF45 100%
+    #f8af45 65%,
+    #f8af45 100%
   );
 }
-
 
 @media only screen and (min-width: 700px) {
   .leads-header {
@@ -510,7 +559,7 @@ a {
 }
 
 @media only screen and (min-width: 700px) {
-  .leads-cards  {
+  .leads-cards {
     width: 80vw;
     justify-content: center;
   }
