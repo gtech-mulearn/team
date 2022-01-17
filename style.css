@@ -115,43 +115,185 @@ body {
 }
 
 /* Navbar CSS */
-a {
+nav {
+  padding: 1.75rem;
+}
+
+.mulearn-logo {
+  width: 6rem;
+}
+
+.nav-barbtn button {
+  border: 2.5px solid #5865f2;
+  padding: 0.65rem 0.96rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  background-color: #5865f2;
+  color: white;
+  margin-top: 2vh;
+}
+
+.dropdown {
+  font-size: 0.89rem;
+}
+
+.dropdown-item {
+  font-size: 0.75rem;
+}
+
+footer {
+  padding: 4rem 2rem;
+  background-color: #404040;
+  margin-top: 10vh;
+}
+
+.footer-logo {
+  width: 5rem;
+}
+
+footer a {
   text-decoration: none;
-  color: inherit;
+  color: #ffff;
 }
 
-.logo {
-  width: 15rem;
+.footer-links {
+  margin: 2rem 0;
+  line-height: 2rem;
+  font-size: 0.9rem;
 }
 
-.navbar-container {
+.footer-links a {
+  margin-right: 0.75rem;
+}
+
+.iconify {
+  font-size: 2rem;
+  margin-right: 0.75rem;
+}
+
+.iconify:hover {
+  color: #f6832a;
+  background-color: #404040;
+}
+
+footer hr {
+  color: white;
+  margin: 2rem 0rem;
+}
+.address {
+  color: white;
+  width: 20rem;
+  font-weight: 200;
+  font-size: 0.8rem;
+}
+
+.mailus {
+  display: block;
+  padding-top: 1rem;
+  color: rgb(176, 176, 245);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #5e72e4;
+}
+
+.fheadingtext {
+  font-size: 1.1rem;
+  color: white;
+  margin-top: 4vh;
+}
+
+.fparagraph {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: white;
+}
+
+.newsletterinvite {
   display: flex;
-  background-color: #f4f5f7;
-  justify-content: center;
-  padding: 1vh 0;
+  flex-direction: row;
 }
 
-.nav-links {
-  display: none;
+.invite-container {
+  position: relative;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  margin-top: 2vh;
+  border-radius: 5px;
 }
 
-.link-text {
-  margin: 1rem;
-  letter-spacing: 0.25px;
-  font-size: 1rem;
-  font-weight: 400;
+.invite-container input {
+  font-size: 0.8rem;
+  border: none;
+  padding: 0.5rem;
+  width: 12.5rem;
 }
 
-@media only screen and (min-width: 700px) {
-  .nav-links {
+.invite-container button {
+  border: none;
+  font-size: 0.8rem;
+  color: white;
+  background-color: #f6832a;
+  padding: 0.5rem 1.75rem;
+  border-radius: 3px;
+}
+
+.invite-container button:hover {
+  background-color: #fd7915;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.newsletter {
+  width: 20rem;
+}
+
+.newslettertext {
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (min-width: 1000px) {
+  .footer-top {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  .navbar-container {
+  footer {
+    padding: 1rem 6rem;
+    padding-bottom: 3rem;
+  }
+
+  nav {
+    margin: 0.75rem 3.4rem;
+  }
+
+  .navbar-styles {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-barbtn button {
+    margin-top: 0;
+  }
+
+  .iconify {
+    font-size: 2.5rem;
+  }
+
+  .footer-logo {
+    width: 6rem;
+    margin-top: 2vh;
   }
 }
 
@@ -408,7 +550,6 @@ a {
 
 /* Executive Heads CSS */
 
-
 .executive-heads {
   margin: 5vh 5vw;
   margin-bottom: 0vh;
@@ -430,12 +571,11 @@ a {
 }
 
 @media only screen and (min-width: 700px) {
-
-  .centerba{
+  .centerba {
     display: flex;
     justify-content: center;
   }
-  
+
   .executive-header {
     font-size: 2rem;
   }
@@ -458,11 +598,9 @@ a {
 
 @media only screen and (min-width: 700px) {
   .executive-cards {
-    
     width: 80vw;
     margin-left: 5vw;
     margin-right: 5vw;
-    
   }
 
   .acard {
@@ -498,7 +636,6 @@ a {
 @media only screen and (min-width: 700px) {
   .fellow-cards {
     width: 80vw;
-    
   }
 
   .acard {
@@ -513,7 +650,6 @@ a {
   }
 }
 
-
 .fcard-gradient {
   position: absolute;
   bottom: 0px;
@@ -524,10 +660,9 @@ a {
     180deg,
     rgba(255, 255, 255, 0) 0%,
     #7a13da 65%,
-    #7a13da  100%
+    #7a13da 100%
   );
 }
-
 
 /* Community Heads CSS */
 
@@ -591,23 +726,5 @@ a {
 
   .acard {
     margin: 0 28px;
-  }
-}
-
-.footer-container {
-  background-color: #f4f5f7;
-  margin-top: 5vh;
-  padding: 0.5rem;
-  text-align: center;
-}
-
-.footer-text span {
-  color: #3d42d7;
-}
-
-@media only screen and (min-width: 700px) {
-  .footer-container {
-    margin-top: 10vh;
-    padding: 1rem;
   }
 }
