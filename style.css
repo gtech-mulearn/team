@@ -166,6 +166,11 @@ footer a {
   margin-right: 0.75rem;
 }
 
+.footer-links a:hover, .social-links a:hover{
+  color: #f6832a;
+
+}
+
 .iconify {
   font-size: 2rem;
   margin-right: 0.75rem;
