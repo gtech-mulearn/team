@@ -1,5 +1,5 @@
 let ipaddress;
-$.getJSON("https://api.ipify.org?format=json", function (data) {
+$.getJSON("https://api64.ipify.org?format=json", function (data) {
   ipaddress = String(data.ip);
   var a = document.getElementById("url"); //or grab it by tagname etc
   var uniqueid = btoa(`${ipaddress}-${new Date().toString()}`);
