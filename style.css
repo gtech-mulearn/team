@@ -158,7 +158,6 @@ a {
 
 a:hover {
   color: inherit;
-  
 }
 
 footer a {
@@ -742,4 +741,9 @@ button:focus {
   .acard {
     margin: 0 28px;
   }
+}
+
+#url abbr {
+  cursor: pointer;
+  text-decoration: none;
 }
