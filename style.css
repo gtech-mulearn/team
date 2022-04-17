@@ -151,6 +151,15 @@ footer {
   width: 5rem;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+}
+
 footer a {
   text-decoration: none;
   color: #ffff;
@@ -166,9 +175,9 @@ footer a {
   margin-right: 0.75rem;
 }
 
-.footer-links a:hover, .social-links a:hover{
+.footer-links a:hover,
+.social-links a:hover {
   color: #f6832a;
-
 }
 
 .iconify {
